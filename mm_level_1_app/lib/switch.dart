@@ -38,8 +38,8 @@ class SwitchWidgetState extends State<SwitchWidget> {
         value: switchControl,
         activeTrackColor: Colors.amber,
         activeColor: Colors.white,
-        activeThumbImage: AssetImage('assets/images/switch.png'),
-        inactiveThumbImage: AssetImage('assets/images/switch.png'),
+        activeThumbImage: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Font_Awesome_5_solid_bullseye.svg/1200px-Font_Awesome_5_solid_bullseye.svg.png'),
+        inactiveThumbImage: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Font_Awesome_5_solid_bullseye.svg/1200px-Font_Awesome_5_solid_bullseye.svg.png'),
         inactiveTrackColor: Colors.grey,
       ),
     );
