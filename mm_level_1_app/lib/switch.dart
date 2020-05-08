@@ -18,9 +18,9 @@ class SwitchWidgetState extends State<SwitchWidget> {
   SwitchWidgetState(this.switchControl);
 
   void toggleSwitch(bool value) {
-    if (switchControl == false) {
+    if (switchControl == false) { //You can directly have boolean values in if, why to compare?
       setState(() {
-        switchControl = true;
+        switchControl = true;     //When toggling bool values, instead of having two if else command, have directlt var=!var
       });
     } else {
       setState(() {

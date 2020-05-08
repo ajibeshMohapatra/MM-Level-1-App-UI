@@ -10,14 +10,14 @@ class Heading extends StatelessWidget {
           decoration: BoxDecoration(
               shape: BoxShape.circle,
               border: Border.all(
-                  width: 2.0, color: Colors.black, style: BorderStyle.solid)),
+                  width: 2.0, color: Colors.black, style: BorderStyle.solid)),    
           child: Icon(Icons.arrow_back_ios),
         ),
         Text(
           'Privacy',
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
         ),
-        Container(
+        Container(      //Purpose of this container?
           width: 20.0,
           height: 0.0,
         ),

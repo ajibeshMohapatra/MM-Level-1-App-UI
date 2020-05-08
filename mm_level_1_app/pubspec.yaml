@@ -17,7 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  toggle_switch: ^0.1.4
+  toggle_switch: ^0.1.4 #Why use a plugin?
   flutter:
     sdk: flutter
 

@@ -17,8 +17,8 @@ class Option extends StatelessWidget {
             SwitchWidget(true),
           ],
         ),
-        Row(
-          children: [
+        Row(          //The entire row could have been a single widget that you reused, instead of separate options and buttons
+          children: [ //No padding is given to tight boundary of the switch
             Expanded(
                 child: _options(
               'Private Account',
