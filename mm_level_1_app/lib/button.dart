@@ -7,7 +7,7 @@ class Button extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         ButtonTheme(
-          minWidth: 250.0,
+          minWidth: 250.0,        //Why min width?
           height: 50.0,
           child: RaisedButton(
             color: Colors.black,
@@ -18,7 +18,7 @@ class Button extends StatelessWidget {
               'Save',
               style: TextStyle(fontSize: 20.0, color: Colors.white),
             ),
-            onPressed: () {},
+            onPressed: () {},       //Why empty onPressed?
           ),
         ),
       ],
