@@ -11,7 +11,7 @@ class Button extends StatelessWidget {
           height: 50.0,
           child: RaisedButton(
             color: Colors.black,
-            padding: EdgeInsets.all(0.0),
+            padding: EdgeInsets.all(0.0),     //Why value as 0?
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
             child: new Text(
@@ -25,3 +25,4 @@ class Button extends StatelessWidget {
     );
   }
 }
+//The actual button is not black
